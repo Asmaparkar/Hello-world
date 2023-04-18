@@ -15,10 +15,10 @@ jobs:
                  root: my_workspace
                  paths:
                       - echo-output
-     two:
+   two:
        docker:
            - image: cimg/ruby:2.6.8
-              auth:
+             auth:
                    username: addyboy07
                    password: $DOCKERHUB_PASSWORD
        steps:
